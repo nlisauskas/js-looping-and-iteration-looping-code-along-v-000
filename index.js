@@ -13,8 +13,8 @@ function tailsNeverFails(){
   function maybeTrue () {
   return Math.random() >= 0.5;
 }
-i = 0
   while (maybeTrue()) {
+    i = 0;
     i += 1;
     return `You got ${i} tails in a row!`
   }
