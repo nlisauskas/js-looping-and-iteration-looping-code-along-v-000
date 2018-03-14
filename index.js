@@ -7,6 +7,15 @@ function printBadges (badges) {
   return badges;
 }
 
+
+
 function tailsNeverFails(){
-  
+  function maybeTrue () {
+  return Math.random() >= 0.5;
+}
+i = 0
+  while (maybeTrue()) {
+    i += 1;
+    return `You got ${i} tails in a row!`
+  }
 }
